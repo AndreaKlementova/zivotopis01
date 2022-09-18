@@ -1,27 +1,56 @@
 h1{
-    color: steelblue; 
+    background-color:midnightblue; 
+    color: whitesmoke;
     font-size: 30px; 
     line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
 }
 h2{
-    color: black; 
+    color: black;
     font-size: 22px; 
     line-height: 2;
+    text-align: left;
+    font-style: oblique;
+}
+
+h3{
+    color:#333333;  
+    font-size: 18px; 
+    line-height: 2;
+    text-align: left;
 }
 
 body{
 font-size: 18px;
 color: black;
 line-height: 2; font-family: Arial, Helvetica, sans-serif; 
-text-align: center;
-background-color: blanchedalmond;
+text-align: left;
+background-color: lightgrey;
+padding: 30px 15%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
 }
 
 p {
     line-height: 2;
 }
 
-image{
-    width: 300px;
+.profilovka {
+    width: 390px;
     height: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 0 50px 50px 50px;
+}
+
+.paticka {
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+.uvod {
+    padding: 50px;
 }
